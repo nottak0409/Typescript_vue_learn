@@ -1,2 +1,3 @@
-var message = "typescriptを学習中です";
+"use strict";
+var message = "ECmascriptを学習中です";
 console.log(message);

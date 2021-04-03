@@ -1,0 +1,32 @@
+{
+  "name": "chapter3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nottak0409/Typescript_vue_learn.git"
+  },
+  "keywords": [
+    "noda"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nottak0409/Typescript_vue_learn/issues"
+  },
+  "homepage": "https://github.com/nottak0409/Typescript_vue_learn#readme",
+  "private": true,
+  "scripts": {
+    "start": "node sample01.ts",
+    "compile": "tsc",
+    "watch": "tsc-watch --onSuccess \"npm start\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.3"
+  }
+}
