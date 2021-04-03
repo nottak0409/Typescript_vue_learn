@@ -2,7 +2,7 @@
   "name": "chapter3",
   "version": "1.0.0",
   "description": "",
-  "main": "sample01.js",
+  "main": "sample02.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/nottak0409/Typescript_vue_learn#readme",
   "private": true,
   "scripts": {
-    "start": "node sample01.ts",
+    "start": "node sample02.ts",
     "compile": "tsc",
     "watch": "tsc-watch --onSuccess \"npm start\""
   },
