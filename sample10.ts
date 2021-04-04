@@ -1,5 +1,6 @@
 class Book {
     private _name: string = ''; :
+    readonly code: string = '1234567';
     set name(value: string) {
         if (value === '') {
             console.log('書籍名がないデウs')
@@ -13,3 +14,5 @@ class Book {
         return this._name;
     }
 }
+let mybook = new Book();
+console.log(mybook.code)

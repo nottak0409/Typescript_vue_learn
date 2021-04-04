@@ -2,6 +2,7 @@
 var Book = /** @class */ (function () {
     function Book() {
         this._name = '';
+        this.code = '1234567';
     }
     Object.defineProperty(Book.prototype, "name", {
         get: function () {
@@ -21,3 +22,5 @@ var Book = /** @class */ (function () {
     });
     return Book;
 }());
+var mybook = new Book();
+console.log(mybook.code);
